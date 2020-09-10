@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+:root {
+  --background1: #000000;
+  --background2: #252e3e;
+  --tw1: 100%;
+  --th1: 80px;
+  --tw2: 60px;
+  --twt2: 40px;
+}
+.bus {
+  text-align: center;
+  background: #000000;
+  padding: 20px 0;
+}
+.buscador {
+  padding: 5px 10px;
+  border-radius: 30px;
+}
+.ventana {
+  position: absolute;
+  overflow: auto;
+
+  left: 0px;
+  top: 65px;
+  right: 0;
+  bottom: 0;
+  background: var(--background2);
+}
+.com {
+  position: relative;
+  display: inline-block;
+  padding: 20px;
+  border-radius: 20px;
+  background: #ffffff10;
+  font-family: arial;
+  color: #ffffff;
+}
